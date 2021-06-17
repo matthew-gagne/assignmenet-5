@@ -1,9 +1,10 @@
+let d = 0
 document.getElementById('button').addEventListener('click', calculate)
 
 function calculate () {
   d = document.getElementById('d').value
-  
-  if (d > 0) {
+
+    if (d > 0) {
   var C;
   var A;
   var R = d/2;
