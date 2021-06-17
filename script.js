@@ -3,8 +3,6 @@ document.getElementById('button').addEventListener('click', calculate);
 function calculate () {
   var d = document.getElementById('d').value;
   if (d > 0){
-
-  
   var C;
   var A;
   var R = d/2;
